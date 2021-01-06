@@ -1,0 +1,191 @@
+body {
+  background-color: #dbf6e9;
+  margin: 0;
+  text-align: center;
+}
+
+.top-container {
+  background-color: #dbf6e9;
+  padding-top: 100px;
+  position: relative;
+}
+
+#top-cloud {
+  position: absolute;
+  right: 25%;
+  top: 30px;
+}
+
+#bottom-cloud {
+  position: absolute;
+  left: 20%;
+  bottom: 300px;
+}
+
+.container {
+  width: 300px;
+  height: 300px;
+  background-color: grey;
+}
+
+
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.middle-container {
+margin-top: 50px;
+}
+
+.profile {
+  margin: 70px auto 100px auto;
+}
+
+.skills {
+  margin: 70px auto 100px auto;
+
+}
+
+.skill-row {
+  width: 50%;
+  margin: 70px auto;
+text-align: left;
+line-height: 2;
+}
+
+.bottom-container {
+background-color: #5eaaa8;
+padding-top: 40px;
+padding-bottom: 20px;
+line-height: 3;
+
+}
+
+.contact-me {
+  margin: 70px auto;
+  line-height: 3:
+}
+
+.bott {
+  color: white;
+}
+
+.footer-link {
+  font-size: 20px;
+  font-family: Cormorant Garamond;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: white;
+}
+
+
+#mid-link {
+  margin: auto 50px;
+}
+.contact-para {
+  margin: 50px auto;
+}
+
+hr {
+  width: 7%;
+  border-style: dotted none none none;
+  border-width: 10px;
+  border-color: #cfd3ce;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 70px;
+  color: #03506f;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-family: 'Cormorant Garamond', serif;
+  color: #03506f;
+  font-size: 40px;
+  margin: 50px auto;
+}
+.webdev {
+  margin-bottom: 50px;
+  font-weight: normal;
+  line-height: 2;
+}
+
+h3 {
+  font-family: 'Cormorant Garamond', serif;
+  color: #03506f;
+}
+
+p {
+  margin-top: 10px;
+  font-family: Lora;
+}
+
+.dev {
+  text-decoration: underline;
+}
+
+#order {
+  width: 150px;
+  display: inline-block;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+#order:hover {
+  transform: scale(1.3) rotate(20deg);
+
+}
+
+span:hover {
+  color: orange;
+}
+
+#avatar {
+  border-radius: 50%;
+}
+
+a {
+  color: #03506f;
+}
+
+.btn {
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:30px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:16px;
+	padding:12px 17px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #283966;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+.eating {
+  border-radius: 50%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.sleeping {
+  width: 25%;
+  float: right;
+  margin-left: 20px;
+}
